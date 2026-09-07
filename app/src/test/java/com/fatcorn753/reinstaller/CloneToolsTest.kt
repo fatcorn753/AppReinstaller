@@ -1,4 +1,4 @@
-package com.tatu.reinstaller
+package com.fatcorn753.reinstaller
 
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertNotNull
@@ -20,8 +20,8 @@ class CloneToolsTest {
     private val sourceApk = File(projectDir, "build/outputs/apk/debug/app-debug.apk")
     private val outputDir = File(projectDir, "build/clone-test").apply { mkdirs() }
 
-    private val original = "com.tatu.reinstaller"
-    private val renamed = "com.tatu.reinstallerclone"
+    private val original = "com.fatcorn753.reinstaller"
+    private val renamed = "com.fatcorn753.reinstallerclone"
 
     @Test
     fun `名前解決の規則`() {

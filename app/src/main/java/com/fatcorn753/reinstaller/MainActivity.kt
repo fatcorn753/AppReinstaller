@@ -1,4 +1,4 @@
-package com.tatu.reinstaller
+package com.fatcorn753.reinstaller
 
 import android.app.PendingIntent
 import android.content.BroadcastReceiver
@@ -23,7 +23,7 @@ import androidx.core.content.pm.ShortcutManagerCompat
 import androidx.core.graphics.drawable.IconCompat
 import androidx.core.widget.doAfterTextChanged
 import androidx.lifecycle.lifecycleScope
-import com.tatu.reinstaller.databinding.ActivityMainBinding
+import com.fatcorn753.reinstaller.databinding.ActivityMainBinding
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
@@ -923,9 +923,9 @@ class MainActivity : AppCompatActivity() {
     )
 
     private companion object {
-        const val ACTION_INSTALL_STATUS = "com.tatu.reinstaller.INSTALL_STATUS"
-        const val ACTION_REINSTALL = "com.tatu.reinstaller.action.REINSTALL"
-        const val EXTRA_PACKAGE = "com.tatu.reinstaller.extra.PACKAGE"
+        const val ACTION_INSTALL_STATUS = "com.fatcorn753.reinstaller.INSTALL_STATUS"
+        const val ACTION_REINSTALL = "com.fatcorn753.reinstaller.action.REINSTALL"
+        const val EXTRA_PACKAGE = "com.fatcorn753.reinstaller.extra.PACKAGE"
         const val APK_ENTRY_NAME = "package.apk"
         const val PREFS = "reinstaller"
         const val KEY_REGISTERED = "registered"

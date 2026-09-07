@@ -1,4 +1,4 @@
-package com.tatu.reinstaller
+package com.fatcorn753.reinstaller
 
 import java.io.BufferedOutputStream
 import java.io.File

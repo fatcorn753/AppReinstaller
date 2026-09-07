@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.tatu.reinstaller"
+    namespace = "com.fatcorn753.reinstaller"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.tatu.reinstaller"
+        applicationId = "com.fatcorn753.reinstaller"
         minSdk = 26
         targetSdk = 36
         versionCode = 1

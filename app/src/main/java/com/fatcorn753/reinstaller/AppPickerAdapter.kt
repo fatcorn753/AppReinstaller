@@ -1,4 +1,4 @@
-package com.tatu.reinstaller
+package com.fatcorn753.reinstaller
 
 import android.content.Context
 import android.content.pm.ApplicationInfo

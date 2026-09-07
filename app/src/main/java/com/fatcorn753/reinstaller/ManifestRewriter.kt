@@ -1,4 +1,4 @@
-package com.tatu.reinstaller
+package com.fatcorn753.reinstaller
 
 /**
  * パッケージ名を変更するときに AndroidManifest.xml のどこを書き換えるかを決める規則。

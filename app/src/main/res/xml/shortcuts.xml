@@ -9,9 +9,9 @@
         android:shortcutLongLabel="@string/shortcut_pick_long"
         android:shortcutShortLabel="@string/shortcut_pick_short">
         <intent
-            android:action="com.tatu.reinstaller.action.REINSTALL"
-            android:targetClass="com.tatu.reinstaller.MainActivity"
-            android:targetPackage="com.tatu.reinstaller" />
+            android:action="com.fatcorn753.reinstaller.action.REINSTALL"
+            android:targetClass="com.fatcorn753.reinstaller.MainActivity"
+            android:targetPackage="com.fatcorn753.reinstaller" />
     </shortcut>
 
 </shortcuts>
