@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">再インストーラ</string>
+
+    <string name="intro">指定したアプリをアンインストールしてから、選んだ APK をインストールします。各手順で Android の確認画面が表示されます。</string>
+    <string name="pick_apk">① APK ファイルを選択</string>
+    <string name="apk_not_selected">APK 未選択</string>
+    <string name="apk_info">%1$s\nパッケージ: %2$s\nバージョン: %3$s / サイズ: %4$d KB</string>
+    <string name="package_hint">② アンインストールするパッケージ名</string>
+    <string name="pick_installed">インストール済みアプリから選ぶ</string>
+    <string name="run">③ アンインストール → インストール を実行</string>
+    <string name="launch_app">アプリを起動</string>
+    <string name="clear_log">ログを消去</string>
+    <string name="log_title">ログ</string>
+    <string name="pick_installed_title">対象アプリを選択</string>
+
+    <string name="register_shortcut">長押しメニューに追加</string>
+    <string name="unregister_shortcut">長押しメニューから外す</string>
+    <string name="manage_shortcuts">長押しメニューを管理</string>
+    <string name="manage_shortcuts_title">長押しメニューに出すアプリ（最大 %1$d 件）</string>
+    <string name="manage_shortcuts_delete_apk">保存済み APK を削除</string>
+    <string name="delete_apk_title">削除する APK を選択</string>
+    <string name="pin_shortcut">ホーム画面にショートカットを追加</string>
+    <string name="shortcut_short">%1$s を再導入</string>
+    <string name="shortcut_long">%1$s を再インストール</string>
+    <string name="shortcut_pick_short">APK を選ぶ</string>
+    <string name="shortcut_pick_long">APK を選んで再インストール</string>
+
+    <string name="clone_button">アプリを複製</string>
+    <string name="clone_title">複製の設定</string>
+    <string name="clone_source">複製元: %1$s\n%2$s</string>
+    <string name="clone_change_package">パッケージ名を変更する（別アプリとして共存させる）</string>
+    <string name="clone_segment_hint">3つ目</string>
+    <string name="clone_preview">→ %1$s</string>
+    <string name="clone_run">複製する</string>
+    <string name="clone_note">複製した APK は署名が変わります。自己署名チェックを行うアプリや、Google ログイン・Firebase・Maps などパッケージ名と署名に紐づく機能は複製側では動きません。</string>
+    <string name="clone_pick_source">複製するアプリを選択</string>
+
+    <string name="perm_title">権限が必要です</string>
+    <string name="perm_message">APK をインストールするには、このアプリに「不明なアプリのインストール」を許可する必要があります。設定画面を開きますか？</string>
+    <string name="perm_open_settings">設定を開く</string>
+</resources>

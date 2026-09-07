@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 常に表示される静的ショートカット。APK ピッカーを直接開く。 -->
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_pick"
+        android:shortcutId="pick_apk"
+        android:shortcutLongLabel="@string/shortcut_pick_long"
+        android:shortcutShortLabel="@string/shortcut_pick_short">
+        <intent
+            android:action="com.tatu.reinstaller.action.REINSTALL"
+            android:targetClass="com.tatu.reinstaller.MainActivity"
+            android:targetPackage="com.tatu.reinstaller" />
+    </shortcut>
+
+</shortcuts>

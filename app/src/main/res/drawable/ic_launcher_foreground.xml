@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- 円形の矢印 = 再インストール -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,30c-13.3,0 -24,10.7 -24,24s10.7,24 24,24c9.6,0 17.9,-5.6 21.7,-13.8l-7.2,-3.4C65.8,66.4 60.3,70 54,70c-8.8,0 -16,-7.2 -16,-16s7.2,-16 16,-16c4.4,0 8.4,1.8 11.3,4.7L58,50h20V30l-7,7C66.6,32.7 60.6,30 54,30z" />
+</vector>
